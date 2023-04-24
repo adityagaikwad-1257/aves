@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AVES</string>
+    <string name="click_image">Click an Image</string>
+    <string name="upload_and_extract">Upload and Extract</string>
+    <string name="entry_image">Entry Image</string>
+    <string name="vehicle_image">Vehicle Image</string>
+    <string name="vehicle_number_plate">Vehicle number plate</string>
+    <string name="type">Type</string>
+    <string name="time_and_date">Time and Date</string>
+    <string name="example_number">HR 26DQ5551</string>
+    <string name="number_plate">number_plate</string>
+    <string name="show_entries">Show entries</string>
+</resources>

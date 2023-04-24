@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:src="@drawable/np"
+            android:contentDescription="@string/number_plate"
+            android:background="@drawable/image_bg"
+            android:padding="5dp"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp" />
+
+        <TextView
+            android:id="@+id/np_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/image_bg"
+            android:padding="5dp"
+            android:text="@string/example_number"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/accuracy_text_view"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_below="@id/np_text_view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:textColor="@android:color/holo_green_light"/>
+
+        <Button android:id="@+id/clickImageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/accuracy_text_view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:text="@string/click_image"
+            android:textAllCaps="false"
+            />
+
+        <Button android:id="@+id/upload_n_extract_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/clickImageBtn"
+            android:text="@string/upload_and_extract"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:textAllCaps="false"
+            />
+
+    </RelativeLayout>
+</layout>
